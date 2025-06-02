@@ -56,3 +56,19 @@ nav {
 .dropdown:hover .caret {
   transform: rotate(180deg);
 }
+
+/* Place in your CSS file */
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Adjust spacing as needed */
+}

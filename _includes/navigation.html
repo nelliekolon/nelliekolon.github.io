@@ -1,21 +1,40 @@
-<nav>
-    {% for item in site.data.navigation %}
-      {% assign item_link = item.link | remove: '/' %}
-      {% assign page_url = page.url | remove: '/' %}
-      <div class="dropdown">
-      <a class="dropbtn{% if page_url == item_link %} current{% endif %}" href="{{ item.link }}">{{ item.name }}
-        {% if item.items %}
+<nav class="nav-flex">
+  <div class="nav-left">
+    {% assign first_item = site.data.navigation | first %}
+    {% assign item_link = first_item.link | remove: '/' %}
+    {% assign page_url = page.url | remove: '/' %}
+    <div class="dropdown">
+      <a class="dropbtn{% if page_url == item_link %} current{% endif %}" href="{{ first_item.link }}">{{ first_item.name }}
+        {% if first_item.items %}
           <span class="caret"><img src="/assets/media/chevron-up.svg" alt=""></span>
         {% endif %}
       </a>
-      {% if item.items %}
+      {% if first_item.items %}
         <div class="dropdown-content">
-          {% for sub_item in item.items %}
+          {% for sub_item in first_item.items %}
             <a href="{{ sub_item.link }}">{{ sub_item.name }}</a>
           {% endfor %}
         </div>
       {% endif %}
     </div>
+  </div>
+  <div class="nav-right">
+    {% for item in site.data.navigation offset:1 %}
+      {% assign item_link = item.link | remove: '/' %}
+      <div class="dropdown">
+        <a class="dropbtn{% if page_url == item_link %} current{% endif %}" href="{{ item.link }}">{{ item.name }}
+          {% if item.items %}
+            <span class="caret"><img src="/assets/media/chevron-up.svg" alt=""></span>
+          {% endif %}
+        </a>
+        {% if item.items %}
+          <div class="dropdown-content">
+            {% for sub_item in item.items %}
+              <a href="{{ sub_item.link }}">{{ sub_item.name }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
     {% endfor %}
+  </div>
 </nav>
-  

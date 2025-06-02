@@ -1,14 +1,16 @@
 - name: Home
   link: /
-  items:
+- name: Industry Work
+  link: /industry-work
+- name: Academic Projects
+  link: /academic-projects
 - name: Blog
   link: /blog
-- name: About
-  link: /about
-  items:
-  - name: Who I Am
-    link: /about/who-i-am
-  - name: What I Do
-    link: /about/what-i-do
-- name: Resume
-  link: /resume.pdf
+- name: Activities
+  link: /activities
+- name: More
+  items: 
+  - name: About Me
+    link: /about-me
+  - name: Resume
+    link: /resume.pdf
