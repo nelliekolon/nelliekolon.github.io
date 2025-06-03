@@ -17,6 +17,7 @@ title: Nellie Kolon
   <img src="/assets/media/life8.png" alt="Description 4">
   <img src="/assets/media/life9.png" alt="Description 4">
   <img src="/assets/media/triathlon.png" alt="Description 4">
+  <img src="/assets/media/life10.png" alt="Description 4">
 </div>
 
 
