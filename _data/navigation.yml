@@ -1,16 +1,26 @@
 - name: Home
   link: /
-- name: Industry Work
-  link: /industry-work
-- name: Academic Projects
-  link: /academic-projects
-- name: Personal Life
-  link: /personal-life
-- name: Blog
-  link: /blog
-- name: More
+- name: Experience
+  link: /experience
   items: 
-  - name: About Me
-    link: /about-me
-  - name: Resume
-    link: /resume.pdf
+  - name: Ackun-Farmmer Lab @ GaTech
+    link: /ackun-farmmer-lab
+  - name: Eli Lilly and Company
+    link: /eli-lilly-and-company
+  - name: Charles Krug Winery
+    link: /charles-krug-winery
+  - name: Mabrouk Lab @ NEU
+    link: /mabrouk-lab-neu
+
+- name: Resume
+  link: /resume.pdf
+
+
+- name: More About Me
+  link: /more-about-me
+  items: 
+  - name: Personal Life
+    link: /personal-life
+  - name: Blog
+    link: /blog
+
