@@ -2,6 +2,7 @@
 layout: default
 title: Nellie Kolon
 ---
+<h1 class="Bungee">Nellie Kolon</h1>
 
 <div class="flex-title">
   <div>
