@@ -3,7 +3,7 @@ nav {
 }
 
 .current {
-  color: black;
+  color: rgb(52, 66, 62);
   font-weight: bold;
   text-decoration: none;
 }
@@ -16,7 +16,7 @@ nav {
   border: none;
   padding: 2px 8px;
   text-decoration: none;
-  color: black;
+  color: rgb(52, 66, 62);
 }
 
 .dropdown {
@@ -36,7 +36,7 @@ nav {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: rgb(52, 66, 62);
   padding: 4px;
   text-decoration: none;
   display: block;

@@ -1,6 +1,6 @@
 body {
     background-color: rgb(194, 204, 223);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Mulish', sans-serif;
     margin: auto;
     max-width: 900px;
     min-width: 265px;
@@ -49,5 +49,22 @@ hr {
 .bungee-regular {
   font-family: "Bungee", sans-serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.nunito-regular {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <weight>: Use a value from 200 to 1000
+// <uniquifier>: Use a unique and descriptive class name
+
+.mulish-regular {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
   font-style: normal;
 }
