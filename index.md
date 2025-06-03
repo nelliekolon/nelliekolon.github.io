@@ -5,16 +5,17 @@ title: Nellie Kolon
 
 <div class="flex-title">
   <div style="margin-left: -30px;">
-    <img src="/assets/media/headshot.png" alt="a picture of me" style="max-width: 250px; border-radius: 8px;">
+    <img src="/assets/media/headshot.png" alt="a picture of me" style="max-width: 280px; border-radius: 10px;">
   </div>
   <div style="margin-left: 1rem;">
 
 <div style="margin-bottom:8px;"></div>
 
-<strong>About Me</strong><br><br>
+<strong>About Me</strong>
+<div style="margin-bottom:8px;"></div>
     <div>
-      Hi! I’m Nellie. I’m a biomedical engineering master’s student at Georgia Tech (graduating December 2025), with a bachelor’s degree in biochemistry from Northeastern University (2021). I’m driven by a desire to use science to solve real-world problems—especially those that affect both human health and the health of our planet.<br><br>
-  
+      Hi! I’m Nellie. I’m a biomedical engineering master’s student at Georgia Tech (graduating December 2025), with a bachelor’s degree in biochemistry from Northeastern University (2021). I’m driven by a desire to use science to solve real-world problems—especially those that affect both human health and the health of our planet.
+<div style="margin-bottom:8px;"></div>
       After three years working on genetic medicine at Eli Lilly, I began shifting my focus toward sustainability-driven research. I believe the materials we design and the processes we use to create them are critical levers for environmental change. My goal is to contribute to the development of renewable, degradable, and environmentally responsible materials that help reshape how we live in harmony with our world.
     </div>
   </div>
@@ -48,7 +49,13 @@ title: Nellie Kolon
   </div>
 </div>
 
-
-
-
+<div class="flex-title">
+  <div>
+    <strong>Current Focus</strong>
+<div style="margin-bottom:8px;"></div>
+Right now, I’m focused on building a foundation in sustainable biomaterials through a combination of academic work and hands-on experience. In addition to my research at Eli Lilly, where I developed lipid nanoparticles for nucleic acid delivery, I also worked in the Ackun-Farmmer Lab at Georgia Tech, where I gained experience in polymer synthesis.
+<div style="margin-bottom:8px;"></div>
+These experiences have shaped my interest in reimagining the entire life cycle of materials, from raw components to degradation, with sustainability in mind. I’m especially excited about the potential of degradable polymers and bio-based systems to help create more circular and environmentally responsible material solutions.
+  </div>
+</div>
 

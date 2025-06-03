@@ -5,3 +5,17 @@ layout: base
 {% include navigation.html %}
 <hr>
 {{ content }}
+
+
+<script>
+  const images = [
+    "/assets/media/krug1.png",
+    "/assets/media/krug2.png",
+    "/assets/media/krug3.png"
+  ];
+  let current = 0;
+  function moveSlide(direction) {
+    current = (current + direction + images.length) % images.length;
+    document.getElementById('carousel-img').src = images[current];
+  }
+</script>

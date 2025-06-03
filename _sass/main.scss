@@ -68,3 +68,22 @@ hr {
   font-weight: 100;
   font-style: normal;
 }
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.carousel-arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: rgb(52, 66, 62);
+  transition: color 0.2s;
+}
+.carousel-arrow:hover {
+  color: #b48a78;
+}
