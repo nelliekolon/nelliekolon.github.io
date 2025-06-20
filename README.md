@@ -11,6 +11,5 @@ my website
 # if carl makes changes
 `git pull`
 
-
 # run locally
 `bundle exec jekyll serve`
