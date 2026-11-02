@@ -1,6 +1,6 @@
-/* Clean, minimal single-column layout. Palette: linen #DED5C8, olive #96883E, slate blue #647A8E, cherry #7F292B. */
+/* Clean, minimal single-column layout. Palette: linen #EBE5DB, olive #96883E, slate blue #647A8E, cherry #7F292B. */
 :root {
-  --linen: #DED5C8;
+  --linen: #EBE5DB;
   --olive: #96883E;
   --slate: #647A8E;
   --cherry: #7F292B;
@@ -8,7 +8,7 @@
   --bg: var(--linen);
   --ink: #2b2523;
   --muted: #4c5c6b;        /* deepened slate so small text stays readable on linen */
-  --line: #c8bdad;
+  --line: #d3c9b9;
   --accent: var(--cherry);
   --marker: var(--olive);
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
