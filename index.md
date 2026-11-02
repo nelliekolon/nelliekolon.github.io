@@ -26,7 +26,7 @@ image: /assets/media/deleon-lab.jpg
     <p class="meta">Founding Engineer · Atlanta, GA · September 2025 – present</p>
   </div>
   <div class="body-text">
-    <p><a href="https://deleon.bio">Deleon</a> is an AI research company building models and autonomous instruments to learn human biology. Its at-home instrument, Otea, measures a person’s metabolism several times a day, so a model can predict how the body will respond to an intervention and check that prediction the same day.</p>
+    <p><a href="https://deleon.bio">Deleon</a> is an AI research company building models and autonomous instruments to learn human biology. Its at-home instrument, Otea, takes a daily measurement of a person’s metabolism, so a model can predict how the body will respond to an intervention and check that prediction the same day.</p>
     <p class="quiet">My role:</p>
   </div>
   <ul class="points">
