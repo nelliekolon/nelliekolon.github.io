@@ -1,61 +1,115 @@
 ---
-layout: default
+layout: base
 title: Nellie Kolon
+description: Founding Engineer at Deleon Technologies. Biochemist and biomedical engineer leading R&D for AI-driven, at-home measurement of human metabolism.
+image: /assets/media/deleon-lab.jpg
 ---
 
-<div class="flex-title">
-  <div style="margin-left: -30px;">
-    <img src="/assets/media/headshot.png" alt="a picture of me" style="max-width: 280px; border-radius: 10px;">
-  </div>
-  <div style="margin-left: 1rem;">
-
-<div style="margin-bottom:8px;"></div>
-
-<strong>About Me</strong>
-<div style="margin-bottom:8px;"></div>
-    <div>
-      Hi! I’m Nellie. I’m a biomedical engineering master’s student at Georgia Tech (graduating December 2025), with a bachelor’s degree in biochemistry from Northeastern University (2021). I’m driven by a desire to use science to solve real-world problems—especially those that affect both human health and the health of our planet.
-<div style="margin-bottom:8px;"></div>
-      After three years working on genetic medicine at Eli Lilly, I began shifting my focus toward sustainability-driven research. I believe the materials we design and the processes we use to create them are critical levers for environmental change. My goal is to contribute to the development of renewable, degradable, and environmentally responsible materials that help reshape how we live in harmony with our world.
+<section class="intro">
+  <div class="intro-text">
+    <h1>Nellie Kolon</h1>
+    <p class="role">Founding Engineer at <a href="https://deleon.bio">Deleon Technologies</a></p>
+    <p class="lede">I’m a biochemist and biomedical engineer. At Deleon, I lead R&amp;D on the lab side of an AI research company that measures human metabolism at home, every day. Before that, I spent three years developing lipid nanoparticle medicines at Eli Lilly.</p>
+    <div class="links">
+      <a class="button primary" href="/resume.pdf">Resume</a>
+      <a class="button" href="https://www.linkedin.com/in/nellie-kolon-8b4b3613a/">LinkedIn</a>
+      <a class="button" href="mailto:nellie@kolon.org">Email</a>
     </div>
   </div>
-</div>
+  <img class="headshot" src="/assets/media/headshot.jpg" alt="Portrait of Nellie Kolon">
+</section>
 
-<div style="margin-bottom:8px;"></div>
-
-<div class="flex-title">
-  <div>
-    <strong>Skills & Expertise</strong>
-    <ul>
-      <li>Nanoparticle Design &amp; Formulation: Lipid and polymer-based delivery systems</li>
-      <li>Polymer Synthesis: Including work with degradable materials</li>
-      <li>High-Throughput Screening &amp; Characterization</li>
-      <li>In Vitro Testing: Potency, toxicity, and assay development</li>
-      <li>Experimental Design: Proficient in JMP and DoE approaches</li>
-      <li>Teamwork: I thrive in collaborative environments and believe in the power of shared knowledge</li>
-    </ul>
+<section id="deleon">
+  <div class="section-head">
+    <p class="eyebrow">Now</p>
+    <h2>Deleon Technologies</h2>
+    <p class="meta">Founding Engineer · Atlanta, GA · September 2025 – present</p>
   </div>
-</div>
-
-<div class="flex-title">
-  <div>
-    <strong>Experience</strong>
-    <ul>
-      <li> <strong> Eli Lilly & Co. </strong> - Senior Research Associate, Genetic Medicine (2021–2024) Led experimental design and nanoparticle development for CNS-targeted nucleic acid delivery. Built high-throughput platforms and scaled up LNP production with microfluidics and tangential flow filtration. Collaborated across departments and with external partners in a fast-paced, innovative environment.</li>
-      <li> <strong> Charles Krug Winery </strong> – Harvest Lab Intern (2020) Supported fermentation experiments and wine chemistry analysis. Learned to translate scientific methods into process-scale applications, and developed a deep appreciation for material transformation through natural processes.</li>
-      <li> <strong> Takeda Pharmaceuticals </strong> – Analytical Chemistry Co-op (2019) Worked on small-molecule oncology drug development. Operated analytical instruments and led an ELISA-based project on immune responses to CDN-conjugated liposomes.</li>
-      <li> <strong> Northeastern University </strong> – Mabrouk Lab (2019–2021) First-author publication on how undergraduate research transforms scientific thinking. This experience taught me to ask bigger questions and communicate science clearly and effectively.</li>
-    </ul>
+  <div class="body-text">
+    <p><a href="https://deleon.bio">Deleon</a> is an AI research company building models and autonomous instruments to learn human biology. Its at-home instrument, Otea, measures a person’s metabolism several times a day, so a model can predict how the body will respond to an intervention and check that prediction the same day.</p>
+    <p class="quiet">My role:</p>
   </div>
-</div>
-
-<div class="flex-title">
-  <div>
-    <strong>Current Focus</strong>
-<div style="margin-bottom:8px;"></div>
-Right now, I’m focused on building a foundation in sustainable biomaterials through a combination of academic work and hands-on experience. In addition to my research at Eli Lilly, where I developed lipid nanoparticles for nucleic acid delivery, I also worked in the Ackun-Farmmer Lab at Georgia Tech, where I gained experience in polymer synthesis.
-<div style="margin-bottom:8px;"></div>
-These experiences have shaped my interest in reimagining the entire life cycle of materials, from raw components to degradation, with sustainability in mind. I’m especially excited about the potential of degradable polymers and bio-based systems to help create more circular and environmentally responsible material solutions.
+  <ul class="points">
+    <li>Lead R&amp;D for the lab, from assay design to the chemical data our models train on.</li>
+    <li>Lead development of a microfluidic capillary electrophoresis assay with laser-induced fluorescence detection (CE-LIF) that generates quantitative metabolite measurements.</li>
+    <li>Act as the biology domain expert for our ML engineers, translating metabolic pathways and physiology into model design.</li>
+    <li>Hired, trained, and manage our research interns.</li>
+    <li>Use AI-assisted, human-in-the-loop optimization to choose what the lab tests next.</li>
+  </ul>
+  <div class="photos">
+    <figure>
+      <img src="/assets/media/deleon-team.jpg" alt="The Deleon team standing outside the office" loading="lazy">
+      <figcaption>The Deleon team in Atlanta.</figcaption>
+    </figure>
+    <figure>
+      <img src="/assets/media/deleon-lab.jpg" alt="Nellie looking through a stereo microscope in the lab" loading="lazy">
+      <figcaption>At the microscope in the Deleon lab.</figcaption>
+    </figure>
   </div>
-</div>
+</section>
 
+<section id="experience">
+  <div class="section-head">
+    <p class="eyebrow">Before Deleon</p>
+    <h2>Experience</h2>
+  </div>
+  <div class="jobs">
+    <div class="job">
+      <p class="when">2024 – 2025</p>
+      <div class="what">
+        <h3>Graduate Student Researcher</h3>
+        <p class="where">Georgia Institute of Technology, Ackun-Farmmer Lab</p>
+        <p>Designed peptide-targeted polymer nanoparticles to reprogram T cell responses, cut a synthesis process from 10 hours to 30 minutes, and mentored an undergraduate researcher.</p>
+      </div>
+    </div>
+    <div class="job">
+      <p class="when">2021 – 2024</p>
+      <div class="what">
+        <h3>Senior Research Associate, Genetic Medicine</h3>
+        <p class="where">Eli Lilly and Company, Cambridge, MA</p>
+        <p>Built a high-throughput platform that formulated and characterized 100+ lipid nanoparticles a week for nucleic acid delivery to the brain, used Design of Experiments to guide formulation, and developed scale-up methods with microfluidic mixing and tangential flow filtration.</p>
+      </div>
+    </div>
+    <div class="job">
+      <p class="when">2019</p>
+      <div class="what">
+        <h3>Analytical Chemistry Co-op</h3>
+        <p class="where">Takeda Pharmaceuticals, Cambridge, MA</p>
+        <p>Ran purity, stability, and solubility assays on oncology drug candidates and presented an in vivo ELISA study to 50+ scientists.</p>
+      </div>
+    </div>
+  </div>
+  <p class="eyebrow" style="margin-top: 16px;">Education</p>
+  <div class="jobs">
+    <div class="job">
+      <p class="when">2025</p>
+      <div class="what">
+        <h3>M.S. Biomedical Engineering</h3>
+        <p class="where">Georgia Institute of Technology</p>
+      </div>
+    </div>
+    <div class="job">
+      <p class="when">2021</p>
+      <div class="what">
+        <h3>B.S. Biochemistry, Magna Cum Laude</h3>
+        <p class="where">Northeastern University</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="section-head">
+    <h2>Publications</h2>
+  </div>
+  <ul class="pubs">
+    <li>
+      <a class="title" href="https://doi.org/10.1039/d6bm00653a">Biomaterial-mediated immunomodulation of regulatory T cells in cancer</a>
+      <span class="cite">Hengen, A.C.; <strong>Kolon, H.</strong>; Ackun-Farmmer, M.A. <em>Biomaterials Science</em>, 2026</span>
+    </li>
+    <li>
+      <a class="title" href="https://doi.org/10.1021/acs.jchemed.1c00999">How Participation in a Research Experiences for Undergraduates Program (REU) Transforms Chemistry and Biochemistry Majors’ Understanding of Research and Scientific Inquiry</a>
+      <span class="cite"><strong>Kolon, H.</strong>; Mabrouk, P.A. <em>Journal of Chemical Education</em>, 2022 · Editor’s Choice</span>
+    </li>
+  </ul>
+</section>

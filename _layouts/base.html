@@ -1,50 +1,61 @@
 <!doctype html>
-<html prefix="og: https://ogp.me/ns#">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DG920TDGF3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DG920TDGF3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DG920TDGF3');
+  </script>
 
-  gtag('config', 'G-DG920TDGF3');
-</script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://nelliekolon.com{{ page.url }}" />
-  <meta property="og:image" content="https://nelliekolon.com{{ page.image }}" />
-  <meta property="og:description" content="{{ page.description }}" />
-  <meta property="og:site_name" content="Nellie Kolon" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="https://nelliekolon.com" />
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{{ page.description }}" />
-  <meta name="twitter:image" content="https://nelliekolon.com{{ page.image }}" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/media/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/assets/media/favicon/favicon.ico">
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nelliekolon.com{{ page.url }}">
+  <meta property="og:image" content="https://nelliekolon.com{{ page.image }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:site_name" content="Nellie Kolon">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="https://nelliekolon.com{{ page.image }}">
+  <link rel="icon" href="/assets/media/favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-  {{ content }}
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="/">Nellie Kolon</a>
+      <nav aria-label="Main">
+        <a href="/#deleon">Deleon</a>
+        <a href="/#experience">Experience</a>
+        <a href="/#publications">Publications</a>
+        <a href="/resume.pdf">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="wrap site-footer">
+    <span>Nellie Kolon · Atlanta, GA</span>
+    <span class="footer-links">
+      <a href="mailto:nellie@kolon.org">nellie@kolon.org</a>
+      <a href="https://www.linkedin.com/in/nellie-kolon-8b4b3613a/">LinkedIn</a>
+    </span>
+  </footer>
 </body>
 
 </html>
