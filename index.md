@@ -11,7 +11,7 @@ image: /assets/media/deleon-lab.jpg
     <p class="role">Founding Engineer at <a href="https://deleon.bio">Deleon Technologies</a></p>
     <p class="lede">I’m a biochemist and biomedical engineer. At Deleon, I lead R&amp;D on the lab side of an AI research company that measures human metabolism at home, every day. Before that, I spent three years developing lipid nanoparticle medicines at Eli Lilly.</p>
     <div class="links">
-      <a class="button primary" href="/resume.pdf">Resume</a>
+      <a class="button primary" href="/NellieKolon_resume.pdf">Resume</a>
       <a class="button" href="https://www.linkedin.com/in/nellie-kolon-8b4b3613a/">LinkedIn</a>
       <a class="button" href="mailto:nellie@kolon.org">Email</a>
     </div>

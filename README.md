@@ -5,4 +5,4 @@ Personal site for Nellie Kolon, built with Jekyll and deployed to GitHub Pages b
 - Homepage: `index.md`
 - Layout: `_layouts/base.html`
 - Styles: `assets/css/styles.css`
-- Resume (web version, no phone number): `resume.pdf`
+- Resume (web version, no phone number): `NellieKolon_resume.pdf` (old `resume.pdf` kept as a copy so existing links work)
