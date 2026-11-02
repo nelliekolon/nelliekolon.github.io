@@ -64,10 +64,16 @@ image: /assets/media/deleon-lab.jpg
     </div>
     <div class="job">
       <p class="when">2021 – 2024</p>
-      <div class="what">
+      <div class="what with-photo">
+        <div class="what-text">
         <h3>Senior Research Associate, Genetic Medicine</h3>
         <p class="where">Eli Lilly and Company, Cambridge, MA</p>
         <p>Built a high-throughput platform that formulated and characterized 100+ lipid nanoparticles a week for nucleic acid delivery to the brain, used Design of Experiments to guide formulation, and developed scale-up methods with microfluidic mixing and tangential flow filtration.</p>
+        </div>
+        <figure class="job-photo">
+          <img src="/assets/media/lilly-lab.jpg" alt="Nellie in a Lilly lab coat, safety glasses, and gloves in the lab" loading="lazy">
+          <figcaption>In the lab at Lilly, Cambridge</figcaption>
+        </figure>
       </div>
     </div>
     <div class="job">

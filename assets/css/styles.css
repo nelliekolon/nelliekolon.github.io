@@ -141,6 +141,12 @@ ul.points li::marker { color: var(--marker); }
 .job .when { color: var(--muted); font-size: 0.92rem; font-variant-numeric: tabular-nums; padding-top: 2px; }
 .job .what { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .job .where { color: var(--muted); font-size: 0.95rem; }
+.what.with-photo { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: 24px; align-items: start; }
+.what-text { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+@media (max-width: 560px) { .what.with-photo { grid-template-columns: 1fr; } }
+.job-photo { margin: 4px 0 0; display: flex; flex-direction: column; gap: 6px; width: 100%; max-width: 100%; }
+.job-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; }
+.job-photo figcaption { font-size: 0.85rem; color: var(--muted); }
 @media (max-width: 560px) { .job { grid-template-columns: 1fr; } }
 
 /* Publications */
