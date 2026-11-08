@@ -284,6 +284,18 @@ ul.points li::marker { color: var(--marker); }
 .hello { font-family: var(--hand); font-size: 2.2rem; line-height: 1.1; color: var(--ink); }
 .cred { font-weight: 700; color: var(--ink); line-height: 1.35; }
 .tutor-hero .lede { color: var(--ink); max-width: 56ch; }
+@media (min-width: 900px) {
+  .tutor-hero {
+    display: grid; grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 72px; align-items: center; padding-block: 64px 64px;
+  }
+  .tutor-title { font-size: 5.5rem; flex-direction: column; }
+  .tutor-hello { grid-template-columns: 160px minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 32px; row-gap: 12px; align-items: start; align-content: center; }
+  .tutor-photo { grid-row: 1 / span 2; align-self: center; }
+  .tutor-id { padding-top: 0; align-self: end; }
+  .hello { font-size: 2rem; }
+  .tutor-hero .lede { grid-column: 2; font-size: 1.02rem; max-width: 46ch; }
+}
 @media (max-width: 560px) {
   .tutor-hero { padding-block: 20px 32px; gap: 18px; }
   .tutor-hello { grid-template-columns: 104px minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 18px; row-gap: 16px; align-items: center; }
