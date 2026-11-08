@@ -21,7 +21,7 @@ image: /assets/media/deleon-lab.jpg
 
 <section id="deleon">
   <div class="section-head">
-    <p class="eyebrow">Now</p>
+    <p class="eyebrow">Experience · Now</p>
     <h2>Deleon Technologies</h2>
     <p class="meta">Founding Engineer · Atlanta, GA · September 2025 – present</p>
   </div>
@@ -53,7 +53,7 @@ image: /assets/media/deleon-lab.jpg
 <section id="experience">
   <div class="section-head">
     <p class="eyebrow">Before Deleon</p>
-    <h2>Experience</h2>
+    <h2>Earlier roles</h2>
   </div>
   <div class="jobs">
     <div class="job">
