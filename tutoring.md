@@ -9,7 +9,7 @@ image: /assets/media/headshot.jpg
   <div class="intro-text">
     <h1>Tutoring</h1>
     <p class="role">SAT prep, AP Biology, and AP Chemistry</p>
-    <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students understand why the science works, not just memorize it.</p>
+    <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students build confidence in what they know.</p>
   </div>
   <img class="headshot" src="/assets/media/headshot.jpg" alt="Portrait of Nellie Kolon">
 </section>
