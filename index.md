@@ -13,6 +13,7 @@ image: /assets/media/deleon-lab.jpg
     <div class="links">
       <a class="button primary" href="/NellieKolon_resume.pdf">Resume</a>
       <a class="button" href="https://www.linkedin.com/in/nellie-kolon-8b4b3613a/">LinkedIn</a>
+      <a class="button" href="https://github.com/nelliekolon">GitHub</a>
       <a class="button" href="mailto:nellie@kolon.org">Email</a>
     </div>
   </div>
