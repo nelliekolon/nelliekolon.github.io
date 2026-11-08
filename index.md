@@ -94,7 +94,9 @@ image: /assets/media/deleon-lab.jpg
       <div class="what">
         <h3>Analytical Chemistry Co-op</h3>
         <p class="where">Takeda Pharmaceuticals, Cambridge, MA</p>
-        <p>Ran purity, stability, and solubility assays on oncology drug candidates and presented an in vivo ELISA study to 50+ scientists.</p>
+        <ul class="points">
+          <li>Ran purity, stability, and solubility assays on oncology drug candidates and presented an in vivo ELISA study to 50+ scientists.</li>
+        </ul>
       </div>
     </div>
   </div>
