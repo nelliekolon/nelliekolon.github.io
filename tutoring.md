@@ -20,8 +20,7 @@ theme: tutor
 
 <section id="reviews">
   <div class="section-head">
-    <p class="eyebrow">Reviews</p>
-    <h2>What students say</h2>
+    <h2>Reviews</h2>
   </div>
   <div class="reviews">
     <figure class="review">
