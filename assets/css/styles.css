@@ -168,6 +168,8 @@ ul.points li::marker { color: var(--marker); }
 .job .when { color: var(--muted); font-size: 0.92rem; font-variant-numeric: tabular-nums; padding-top: 2px; }
 .job .what { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .job .where { color: var(--muted); font-size: 0.95rem; }
+.job .goal { font-style: italic; color: var(--muted); }
+.job ul.points { margin-top: 4px; }
 .what.with-photo { display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 40px; align-items: start; }
 .what-text { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 @media (max-width: 560px) { .what.with-photo { grid-template-columns: 1fr; } }

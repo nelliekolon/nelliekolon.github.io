@@ -62,7 +62,13 @@ image: /assets/media/deleon-lab.jpg
       <div class="what">
         <h3>Graduate Student Researcher</h3>
         <p class="where">Georgia Institute of Technology, Ackun-Farmmer Lab</p>
-        <p>Designed peptide-targeted polymer nanoparticles to reprogram T cell responses, cut a synthesis process from 10 hours to 30 minutes, and mentored an undergraduate researcher.</p>
+        <p class="goal">The lab develops ways to retrain immune cells to stop attacking the body in multiple sclerosis.</p>
+        <ul class="points">
+          <li>Rethought the lab’s polymeric nanoparticle synthesis using recent literature, updating long-standing protocols and cutting synthesis time from 10 hours to 30 minutes.</li>
+          <li>Designed peptide-targeted nanoparticles to reprogram T cell responses.</li>
+          <li>Co-wrote a <a href="https://doi.org/10.1039/d6bm00653a">review in Biomaterials Science</a>, including the sections on lipid-based materials.</li>
+          <li>Mentored an undergraduate researcher, training him in nanoparticle synthesis and in vitro techniques and helping him earn a research scholarship.</li>
+        </ul>
       </div>
     </div>
     <div class="job">
@@ -71,7 +77,15 @@ image: /assets/media/deleon-lab.jpg
         <div class="what-text">
         <h3>Senior Research Associate, Genetic Medicine</h3>
         <p class="where">Eli Lilly and Company, Cambridge, MA</p>
-        <p>Built a high-throughput platform that formulated and characterized 100+ lipid nanoparticles a week for nucleic acid delivery to the brain, used Design of Experiments to guide formulation, and developed scale-up methods with microfluidic mixing and tangential flow filtration.</p>
+        <ul class="points">
+          <li>Helped build a fully automated lipid nanoparticle synthesis and characterization platform with Lilly’s automation engineers. The team went from about 5 formulations a day by hand to more than 100 a week, and the platform is still in use.</li>
+          <li>Generated the data for an ML model of how lipid chemistry affects nanoparticle formation and efficacy, and used it to narrow down candidates for mouse and non-human primate studies.</li>
+          <li>Ran all hands-on experiments on a two-person team led by my supervisor, and programmed Hamilton liquid handlers for the characterization assays.</li>
+          <li>Used Design of Experiments to map how design parameters and lipid components interact, reaching answers in fewer experiments and finding the limits of the system.</li>
+          <li>Scaled formulation from 100 µL–1 mL batches up to 1 L for non-human primate studies.</li>
+          <li>Worked with teams across Lilly, including headquarters in Indianapolis and the automation group in San Diego, presenting results and lessons learned.</li>
+          <li>Joined as a contractor and was promoted to Senior Research Associate.</li>
+        </ul>
         </div>
         <figure class="job-photo">
           <img src="/assets/media/lilly-lab.jpg" alt="Nellie in a Lilly lab coat, safety glasses, and gloves in the lab" loading="lazy">
