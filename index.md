@@ -9,7 +9,7 @@ image: /assets/media/deleon-lab.jpg
   <div class="intro-text">
     <h1>Nellie Kolon</h1>
     <p class="role">Founding Engineer at <a href="https://deleon.bio">Deleon Technologies</a></p>
-    <p class="lede">I’m a biochemist and biomedical engineer. At Deleon, I lead R&amp;D on the lab side of an AI research company that measures human metabolism at home, every day. Before that, I spent three years developing lipid nanoparticle medicines at Eli Lilly.</p>
+    <p class="lede">I’m a biochemist and biomedical engineer. At Deleon, I lead R&amp;D on the lab side of an AI research company and work between the lab and our ML engineers, turning chemistry into data our models can learn from. Before that, I spent three years developing lipid nanoparticle medicines at Eli Lilly.</p>
     <div class="links">
       <a class="button primary" href="/NellieKolon_resume.pdf">Resume</a>
       <a class="button" href="https://www.linkedin.com/in/nellie-kolon-8b4b3613a/">LinkedIn</a>
@@ -26,7 +26,7 @@ image: /assets/media/deleon-lab.jpg
     <p class="meta">Founding Engineer · Atlanta, GA · September 2025 – present</p>
   </div>
   <div class="body-text">
-    <p><a href="https://deleon.bio">Deleon</a> is an AI research company building models and autonomous instruments to learn human biology. Its at-home instrument, Otea, takes a daily measurement of a person’s metabolism, so a model can predict how the body will respond to an intervention and check that prediction the same day.</p>
+    <p><a href="https://deleon.bio">Deleon</a> is an AI research company building models and automated instruments to learn human biology, so AI predictions can be tested against real measurements from people.</p>
     <p class="quiet">My role:</p>
   </div>
   <ul class="points">
@@ -34,8 +34,7 @@ image: /assets/media/deleon-lab.jpg
     <li>Developed the assay from scratch. It now labels and detects 10+ amino acids in a 2-minute run, with run-to-run consistency within 3% of a commercial instrument.</li>
     <li>Owned method development end to end: labeling chemistry, buffer conditions, and voltage settings. Troubleshot alignment and focus of the optical system.</li>
     <li>Act as the biology domain expert for our ML engineers, translating metabolic pathways and physiology into model design.</li>
-    <li>Recruited, hired, and manage two research interns from Georgia Tech’s undergraduate and master’s programs. I wrote the role, ran the interviews, and had them running the device on their own within a month.</li>
-    <li>Set the interns’ weekly priorities, give feedback, and turn company goals into experiments. The company relies on the results they produce.</li>
+    <li>Recruited, hired, and manage two research interns from Georgia Tech’s undergraduate and master’s programs. I wrote the role, ran the interviews, and had them running the device on their own within a month. I set their weekly priorities, give feedback, and turn company goals into the experiments they run.</li>
     <li>Moved the lab from trial-and-error to AI-guided experimental design. I give the model our past runs and the relevant literature, and add what it can’t see, like dye buildup in the chip.</li>
   </ul>
 </section>
@@ -80,15 +79,12 @@ image: /assets/media/deleon-lab.jpg
         </figure>
         <div class="what-text">
         <h3>Senior Research Associate, Genetic Medicine</h3>
-        <p class="where">Eli Lilly and Company, Cambridge, MA</p>
+        <p class="where">Eli Lilly and Company, Cambridge, MA · promoted from contractor</p>
         <ul class="points">
           <li>Helped build a fully automated lipid nanoparticle synthesis and characterization platform with Lilly’s automation engineers. The team went from about 5 formulations a day by hand to more than 100 a week, and the platform is still in use.</li>
           <li>Generated the data for an ML model of how lipid chemistry affects nanoparticle formation and efficacy, and used it to narrow down candidates for mouse and non-human primate studies.</li>
-          <li>Ran all hands-on experiments on a two-person team led by my supervisor, and programmed Hamilton liquid handlers for the characterization assays.</li>
-          <li>Used Design of Experiments to map how design parameters and lipid components interact, reaching answers in fewer experiments and finding the limits of the system.</li>
-          <li>Scaled formulation from 100 µL–1 mL batches up to 1 L for non-human primate studies.</li>
-          <li>Worked with teams across Lilly, including headquarters in Indianapolis and the automation group in San Diego, presenting results and lessons learned.</li>
-          <li>Joined as a contractor and was promoted to Senior Research Associate.</li>
+          <li>Ran all hands-on experiments on a two-person team led by my supervisor, programmed Hamilton liquid handlers for the characterization assays, and presented results to teams in Indianapolis and San Diego.</li>
+          <li>Used Design of Experiments to map how design parameters and lipid components interact, and scaled formulation from 100 µL–1 mL batches up to 1 L for non-human primate studies.</li>
         </ul>
         </div>
       </div>
