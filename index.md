@@ -74,6 +74,10 @@ image: /assets/media/deleon-lab.jpg
     <div class="job">
       <p class="when">2021 – 2024</p>
       <div class="what with-photo">
+        <figure class="job-photo">
+          <img src="/assets/media/lilly-lab.jpg" alt="Nellie in a Lilly lab coat, safety glasses, and gloves in the lab" loading="lazy">
+          <figcaption>In the lab at Lilly, Cambridge</figcaption>
+        </figure>
         <div class="what-text">
         <h3>Senior Research Associate, Genetic Medicine</h3>
         <p class="where">Eli Lilly and Company, Cambridge, MA</p>
@@ -87,10 +91,6 @@ image: /assets/media/deleon-lab.jpg
           <li>Joined as a contractor and was promoted to Senior Research Associate.</li>
         </ul>
         </div>
-        <figure class="job-photo">
-          <img src="/assets/media/lilly-lab.jpg" alt="Nellie in a Lilly lab coat, safety glasses, and gloves in the lab" loading="lazy">
-          <figcaption>In the lab at Lilly, Cambridge</figcaption>
-        </figure>
       </div>
     </div>
     <div class="job">

@@ -170,9 +170,13 @@ ul.points li::marker { color: var(--marker); }
 .job .where { color: var(--muted); font-size: 0.95rem; }
 .job .goal { font-style: italic; color: var(--muted); }
 .job ul.points { margin-top: 4px; }
-.what.with-photo { display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 40px; align-items: start; }
+.what.with-photo { display: flow-root; }
+.what.with-photo .what-text, .what.with-photo ul.points { display: block; }
+.what.with-photo .what-text > * + * { margin-top: 6px; }
+.what.with-photo ul.points li + li { margin-top: 10px; }
+.what.with-photo .job-photo { float: right; width: 200px; margin: 4px 0 16px 32px; }
 .what-text { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
-@media (max-width: 560px) { .what.with-photo { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .what.with-photo .job-photo { float: none; width: 200px; margin: 0 0 16px; } }
 .job-photo { margin: 4px 0 0; display: flex; flex-direction: column; gap: 6px; width: 100%; max-width: 100%; }
 .job-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; transition: transform 900ms var(--ease-out); }
 .job-photo { overflow: hidden; }
