@@ -31,10 +31,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  {% if page.theme == "tutor" %}<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;700&family=Gochi+Hand&display=swap" rel="stylesheet">{% endif %}
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 
-<body>
+<body{% if page.theme %} class="theme-{{ page.theme }}"{% endif %}>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="site-name" href="/">Nellie Kolon</a>

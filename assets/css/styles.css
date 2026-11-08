@@ -186,16 +186,16 @@ ul.points li::marker { color: var(--marker); }
 
 /* Wide screens: section title in a left column, content on the right */
 @media (min-width: 900px) {
-  section:not(.intro):not(.notfound) {
+  section:not(.intro):not(.notfound):not(.tutor-hero) {
     display: grid;
     grid-template-columns: 220px minmax(0, 1fr);
     column-gap: 64px;
     row-gap: 0;
     align-items: start;
   }
-  section:not(.intro) > :not(.section-head) + :not(.section-head) { margin-top: 20px; }
+  section:not(.intro):not(.tutor-hero) > :not(.section-head) + :not(.section-head) { margin-top: 20px; }
   section:not(.intro) > .section-head { grid-column: 1; grid-row: 1 / span 12; position: sticky; top: 84px; }
-  section:not(.intro) > :not(.section-head) { grid-column: 2; }
+  section:not(.intro):not(.tutor-hero) > :not(.section-head) { grid-column: 2; }
 }
 @media (max-width: 640px) {
   .headshot { width: 160px; }
@@ -232,6 +232,62 @@ ul.points li::marker { color: var(--marker); }
 .tutor-form .button { align-self: flex-start; font: inherit; font-weight: 500; cursor: pointer; padding: 10px 22px; }
 .hp { position: absolute; left: -9999px; }
 .form-status { color: var(--muted); min-height: 1.4em; }
+
+/* Tutoring page theme: matches the printed flyer (off-white + royal blue) */
+.theme-tutor {
+  --bg: #EEECE7;
+  --ink: #2A3F9A;
+  --muted: #4A5BA8;
+  --line: #2A3F9A;
+  --accent: #2A3F9A;
+  --marker: #2A3F9A;
+  --slate: #2A3F9A;
+  --cherry: #2A3F9A;
+  --linen: #ffffff;
+  --serif: "Anton", "Impact", "Arial Narrow", sans-serif;
+  --sans: "Archivo", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --hand: "Gochi Hand", "Comic Sans MS", cursive;
+}
+.theme-tutor .site-header { border-bottom: 2px solid var(--line); }
+.theme-tutor .site-name { font-family: var(--serif); font-weight: 400; letter-spacing: 0.01em; text-transform: uppercase; }
+.theme-tutor .site-header nav a { color: var(--ink); }
+.theme-tutor section { border-top: 2px solid var(--line); }
+.theme-tutor section.tutor-hero { border-top: 0; }
+.theme-tutor h2 { font-family: var(--serif); font-weight: 400; text-transform: uppercase; letter-spacing: 0.01em; font-size: 2rem; }
+.theme-tutor .eyebrow { color: var(--ink); }
+.theme-tutor .meta { color: var(--muted); }
+.theme-tutor .site-footer { border-top: 2px solid var(--line); color: var(--ink); }
+.theme-tutor .button.primary { background: var(--ink); border-color: var(--ink); color: #fff; }
+.theme-tutor .button.primary:hover { background: #22337f; }
+.theme-tutor .field input[type="text"], .theme-tutor .field input[type="email"], .theme-tutor .field input[type="tel"],
+.theme-tutor .field select, .theme-tutor .field textarea { background: #fff; border: 1.5px solid var(--line); color: var(--ink); }
+.theme-tutor .field label, .theme-tutor .field legend { color: var(--ink); font-weight: 700; }
+.theme-tutor .check input { accent-color: var(--ink); }
+.theme-tutor .form-status { color: var(--ink); }
+
+.tutor-hero { padding-block: 36px 48px; gap: 28px; }
+.tutor-title {
+  font-family: var(--serif); font-weight: 400; text-transform: uppercase;
+  font-size: clamp(3.6rem, 14vw, 9rem); line-height: 0.9; letter-spacing: 0;
+  color: var(--ink); display: flex; flex-wrap: wrap; column-gap: 0.25em;
+}
+.tutor-title span { white-space: nowrap; }
+.tutor-hello { display: flex; align-items: center; gap: 24px; }
+.tutor-photo {
+  width: 180px; flex: 0 0 auto; aspect-ratio: 4 / 5; object-fit: cover;
+  border: 8px solid #fff; box-shadow: 0 2px 10px rgba(42, 63, 154, 0.18); transform: rotate(-2deg);
+}
+.tutor-hello-text { display: flex; flex-direction: column; gap: 8px; min-width: 0; max-width: 56ch; }
+.hello { font-family: var(--hand); font-size: 2.2rem; line-height: 1.1; color: var(--ink); }
+.cred { font-weight: 700; color: var(--ink); line-height: 1.4; }
+.tutor-hero .lede { color: var(--ink); }
+@media (max-width: 560px) {
+  .tutor-hero { padding-block: 24px 36px; gap: 20px; }
+  .tutor-hello { align-items: flex-start; gap: 16px; }
+  .tutor-photo { width: 112px; border-width: 5px; }
+  .hello { font-size: 1.7rem; }
+  .tutor-hero .lede { font-size: 0.98rem; }
+}
 
 /* Footer */
 .site-footer {

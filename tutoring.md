@@ -3,15 +3,19 @@ layout: base
 title: Tutoring · Nellie Kolon
 description: SAT prep, AP Biology, and AP Chemistry tutoring with Nellie Kolon.
 image: /assets/media/headshot.jpg
+theme: tutor
 ---
 
-<section class="intro">
-  <div class="intro-text">
-    <h1>Tutoring</h1>
-    <p class="role">SAT prep, AP Biology, and AP Chemistry</p>
-    <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students build confidence in what they know.</p>
+<section class="tutor-hero">
+  <h1 class="tutor-title"><span>SAT + AP</span> <span>Tutoring</span></h1>
+  <div class="tutor-hello">
+    <img class="tutor-photo" src="/assets/media/lilly-lab.jpg" alt="Nellie in a lab coat and safety glasses">
+    <div class="tutor-hello-text">
+      <p class="hello">Hi, I’m Nellie!</p>
+      <p class="cred">M.S. Biomedical Engineering<br>Georgia Tech</p>
+      <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students build confidence in what they know.</p>
+    </div>
   </div>
-  <img class="headshot" src="/assets/media/headshot.jpg" alt="Portrait of Nellie Kolon">
 </section>
 
 <section id="request">
