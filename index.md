@@ -30,11 +30,13 @@ image: /assets/media/deleon-lab.jpg
     <p class="quiet">My role:</p>
   </div>
   <ul class="points">
-    <li>Lead R&amp;D for the lab, from assay design to the chemical data our models train on.</li>
-    <li>Lead development of a microfluidic capillary electrophoresis assay with laser-induced fluorescence detection (CE-LIF) that generates quantitative metabolite measurements.</li>
+    <li>Built the chemical analysis system for Deleon’s miniaturized capillary electrophoresis device with laser-induced fluorescence detection (CE-LIF), working with our hardware engineers to take it from an idea to a working instrument.</li>
+    <li>Developed the assay from scratch. It now labels and detects 10+ amino acids in a 2-minute run, with run-to-run consistency within 3% of a commercial instrument.</li>
+    <li>Owned method development end to end: labeling chemistry, buffer conditions, and voltage settings. Troubleshot alignment and focus of the optical system.</li>
     <li>Act as the biology domain expert for our ML engineers, translating metabolic pathways and physiology into model design.</li>
-    <li>Hired, trained, and manage our research interns.</li>
-    <li>Use AI-assisted, human-in-the-loop optimization to choose what the lab tests next.</li>
+    <li>Recruited, hired, and manage two research interns from Georgia Tech’s undergraduate and master’s programs. I wrote the role, ran the interviews, and had them running the device on their own within a month.</li>
+    <li>Set the interns’ weekly priorities, give feedback, and turn company goals into experiments. The company relies on the results they produce.</li>
+    <li>Moved the lab from trial-and-error to AI-guided experimental design. I give the model our past runs and the relevant literature, and add what it can’t see, like dye buildup in the chip.</li>
   </ul>
   <div class="photos">
     <figure>
