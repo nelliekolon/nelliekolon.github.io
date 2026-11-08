@@ -38,17 +38,18 @@ image: /assets/media/deleon-lab.jpg
     <li>Set the interns’ weekly priorities, give feedback, and turn company goals into experiments. The company relies on the results they produce.</li>
     <li>Moved the lab from trial-and-error to AI-guided experimental design. I give the model our past runs and the relevant literature, and add what it can’t see, like dye buildup in the chip.</li>
   </ul>
-  <div class="photos">
-    <figure>
-      <img src="/assets/media/deleon-team.jpg" alt="The Deleon team standing outside the office" loading="lazy">
-      <figcaption>The Deleon team in Atlanta.</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/media/deleon-lab.jpg" alt="Nellie looking through a stereo microscope in the lab" loading="lazy">
-      <figcaption>At the microscope in the Deleon lab.</figcaption>
-    </figure>
-  </div>
 </section>
+
+<div class="photos bleed">
+  <figure>
+    <img src="/assets/media/deleon-team.jpg" alt="The Deleon team standing outside the office" loading="lazy">
+    <figcaption>The Deleon team in Atlanta.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/media/deleon-lab.jpg" alt="Nellie looking through a stereo microscope in the lab" loading="lazy">
+    <figcaption>At the microscope in the Deleon lab.</figcaption>
+  </figure>
+</div>
 
 <section id="experience">
   <div class="section-head">
