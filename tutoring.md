@@ -14,7 +14,7 @@ theme: tutor
       <p class="hello">Hi, I’m Nellie!</p>
       <p class="cred">M.S. Biomedical Engineering<br>Georgia Tech</p>
     </div>
-    <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students build confidence in what they know.</p>
+    <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students build confidence in their knowledge and abilities, along with study habits that carry into their future classes.</p>
   </div>
 </section>
 
