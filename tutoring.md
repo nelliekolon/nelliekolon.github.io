@@ -18,31 +18,6 @@ permalink: /tutoring/
   <img class="headshot" src="/assets/media/headshot.jpg" alt="Portrait of Nellie Kolon">
 </section>
 
-<section id="offer">
-  <div class="section-head">
-    <p class="eyebrow">What I offer</p>
-    <h2>Subjects and sessions</h2>
-  </div>
-  <div class="offer-grid">
-    <div class="offer">
-      <h3>SAT prep</h3>
-      <p>Math and reading practice, test strategy, and timed practice sections.</p>
-    </div>
-    <div class="offer">
-      <h3>AP Biology</h3>
-      <p>Concept review, lab and data questions, and exam prep.</p>
-    </div>
-    <div class="offer">
-      <h3>AP Chemistry</h3>
-      <p>Problem solving, calculations, and exam prep.</p>
-    </div>
-  </div>
-  <ul class="points">
-    <li>In person in Atlanta, or online over video</li>
-    <li>Flexible scheduling, including evenings and weekends</li>
-  </ul>
-</section>
-
 <section id="request">
   <div class="section-head">
     <p class="eyebrow">Get started</p>
