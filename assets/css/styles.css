@@ -228,6 +228,7 @@ ul.points li::marker { color: var(--marker); }
 .field legend { margin-bottom: 6px; }
 .check { display: flex; align-items: center; gap: 10px; font-weight: 400 !important; }
 .check input { accent-color: var(--cherry); width: 18px; height: 18px; }
+#subjects-other { margin-top: 4px; max-width: 360px; }
 .tutor-form .button { align-self: flex-start; font: inherit; font-weight: 500; cursor: pointer; padding: 10px 22px; }
 .hp { position: absolute; left: -9999px; }
 .form-status { color: var(--muted); min-height: 1.4em; }

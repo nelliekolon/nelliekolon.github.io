@@ -59,6 +59,8 @@ image: /assets/media/headshot.jpg
       <label class="check"><input type="checkbox" name="subjects" value="SAT prep" id="subj-sat"> SAT prep</label>
       <label class="check"><input type="checkbox" name="subjects" value="AP Biology" id="subj-bio"> AP Biology</label>
       <label class="check"><input type="checkbox" name="subjects" value="AP Chemistry" id="subj-chem"> AP Chemistry</label>
+      <label class="check"><input type="checkbox" name="subjects" value="Other" id="subj-other"> Other</label>
+      <input id="subjects-other" name="subjects_other" type="text" placeholder="What subject?" aria-label="Other subject" hidden>
     </fieldset>
     <fieldset class="field">
       <legend>Format</legend>
@@ -84,6 +86,16 @@ image: /assets/media/headshot.jpg
   (function () {
     var form = document.getElementById('tutor-form');
     var status = document.getElementById('form-status');
+    var other = document.getElementById('subj-other');
+    var otherText = document.getElementById('subjects-other');
+    if (other && otherText) {
+      var syncOther = function () {
+        otherText.hidden = !other.checked;
+        otherText.required = other.checked;
+        if (other.checked) otherText.focus(); else otherText.value = '';
+      };
+      other.addEventListener('change', syncOther);
+    }
     if (!form || !window.fetch) return;
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -97,6 +109,7 @@ image: /assets/media/headshot.jpg
         .then(function (r) {
           if (r.ok) {
             form.reset();
+            if (otherText) { otherText.hidden = true; otherText.required = false; }
             status.textContent = 'Thanks! Your request was sent. I’ll reply by email within two days.';
           } else {
             status.textContent = 'Something went wrong sending your request. Please email me at nellie@kolon.org.';
