@@ -10,11 +10,11 @@ theme: tutor
   <h1 class="tutor-title"><span>SAT + AP</span> <span>Tutoring</span></h1>
   <div class="tutor-hello">
     <img class="tutor-photo" src="/assets/media/lilly-lab.jpg" alt="Nellie in a lab coat and safety glasses">
-    <div class="tutor-hello-text">
+    <div class="tutor-id">
       <p class="hello">Hi, I’m Nellie!</p>
       <p class="cred">M.S. Biomedical Engineering<br>Georgia Tech</p>
-      <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students build confidence in what they know.</p>
     </div>
+    <p class="lede">I’m a biochemist and biomedical engineer, and I’ve been tutoring high school students since 2022. I love helping students build confidence in what they know.</p>
   </div>
 </section>
 
@@ -22,7 +22,6 @@ theme: tutor
   <div class="section-head">
     <p class="eyebrow">Get started</p>
     <h2>Request tutoring</h2>
-    <p class="meta">I’ll reply by email within two days.</p>
   </div>
   <form class="tutor-form" id="tutor-form" action="https://formspree.io/f/xzeelpze" method="POST">
     <div class="field">
@@ -114,7 +113,7 @@ theme: tutor
           if (r.ok) {
             form.reset();
             if (otherText) { otherText.hidden = true; otherText.required = false; }
-            status.textContent = 'Thanks! Your request was sent. I’ll reply by email within two days.';
+            status.textContent = 'Thanks! Your request was sent. I’ll be in touch soon.';
           } else {
             status.textContent = 'Something went wrong sending your request. Please email me at nellie@kolon.org.';
           }
