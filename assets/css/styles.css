@@ -306,6 +306,25 @@ ul.points li::marker { color: var(--marker); }
   .tutor-hero .lede { grid-column: 1 / -1; font-size: 1rem; }
 }
 
+/* Tutoring reviews */
+.reviews { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.review {
+  margin: 0; background: #fff; border: 2px solid var(--line); border-radius: 18px;
+  padding: 22px 24px; display: flex; flex-direction: column; gap: 14px;
+}
+.review:nth-child(odd) { transform: rotate(-0.6deg); }
+.review:nth-child(even) { transform: rotate(0.6deg); }
+.review blockquote { margin: 0; color: var(--ink); line-height: 1.55; }
+.review figcaption { font-family: var(--hand, inherit); font-size: 1.35rem; color: var(--ink); }
+.stars { display: flex; gap: 4px; }
+.star { width: 26px; height: 26px; fill: var(--ink); stroke: var(--ink); stroke-width: 2.2; stroke-linejoin: round; }
+.star:nth-child(odd) { transform: rotate(-8deg); }
+.star:nth-child(even) { transform: rotate(6deg) translateY(-2px); }
+@media (max-width: 640px) {
+  .reviews { grid-template-columns: 1fr; }
+  .review:nth-child(n) { transform: none; }
+}
+
 /* Footer */
 .site-footer {
   display: flex;

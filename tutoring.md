@@ -18,6 +18,25 @@ theme: tutor
   </div>
 </section>
 
+<section id="reviews">
+  <div class="section-head">
+    <p class="eyebrow">Reviews</p>
+    <h2>What students say</h2>
+  </div>
+  <div class="reviews">
+    <figure class="review">
+      <div class="stars" role="img" aria-label="5 out of 5 stars"><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg></div>
+      <blockquote>You were such an amazing tutor for me. Chemistry is such an intricate class and you made it so much easier to understand for me. I felt more confident going into tests and doing problems and was able to do well going forward in my later chem classes.</blockquote>
+      <figcaption>Molly G. · Chemistry</figcaption>
+    </figure>
+    <figure class="review">
+      <div class="stars" role="img" aria-label="5 out of 5 stars"><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></svg></div>
+      <blockquote>Nellie was an amazing SAT prep tutor! She gave lots of helpful guided feedback from assessing my specific strengths and weaknesses in math, top strategies for the reading comprehension sections, and helped me raise my score to a 1580!</blockquote>
+      <figcaption>Julia M. · SAT prep</figcaption>
+    </figure>
+  </div>
+</section>
+
 <section id="request">
   <div class="section-head">
     <p class="eyebrow">Get started</p>
